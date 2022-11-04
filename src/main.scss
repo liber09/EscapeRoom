@@ -6,13 +6,6 @@ $large-screen-breakpoint: 720px;
   }
 }
 
-body{
-  background-color: #E5E5E5;
-  padding:0;
-  margin:0;
-  width: 100%;
-}
-
 html{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -22,12 +15,25 @@ html{
   font-size: 24px;
 }
 
+body{
+  background-color: #E5E5E5;
+  padding:0;
+  margin:0;
+  width: 100%;
+}
+
 .header{
   background-color: #011827;
   @include wide-screen{
     grid-column: span 12;
   }
-}         
+}   
+
+.logo{
+  width: 128px;
+  height: 82px;
+  margin: 1rem 0.2rem 4rem 1rem;
+}      
 
 .headTitle{
   display: flex;
@@ -36,12 +42,6 @@ html{
   @include wide-screen{
     word-wrap: normal;
   }
-}
-
-.logo{
-  width: 128px;
-  height: 82px;
-  margin: 1rem 0.2rem 4rem 1rem;
 }
 
 h1{
@@ -57,14 +57,12 @@ h1{
     font-size: 24px;
     word-break: normal;
   }
-  
 }
 
 .burgerIcon{
   width: 51px;
   height: 51px;
   margin: 1rem 1rem 0 0;
-  
   &:hover{
     cursor: pointer;
   }
@@ -379,7 +377,6 @@ h2{
   width: 65vw;
   height: 66px;
   justify-self: center;
-
   &:hover{
     cursor: pointer;
   }
