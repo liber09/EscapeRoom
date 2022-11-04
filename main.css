@@ -238,7 +238,7 @@ h1 {
 }
 @media screen and (min-width: 720px) {
   .review .reviewSignature {
-    margin-left: 5.5rem;
+    margin: 0.5rem 0 0 7.5rem;
   }
 }
 
