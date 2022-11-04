@@ -204,7 +204,7 @@ h1{
 
   blockquote{
     grid-column: span 10;
-    margin: 0 0.5rem 0 1rem;
+    margin: 0 1rem 0 2rem;
   }
 
   .reviewSignature{
@@ -213,7 +213,7 @@ h1{
     margin: 0rem 0 0 5.5rem; 
     grid-column: span 12;
     @include wide-screen{
-      margin: 0.5rem 0 0 5.5rem;
+      margin: 1.5rem 0 0 5.5rem;
     }
   }
 }
@@ -359,7 +359,7 @@ h2{
   text-align: center;
 
   p{
-    margin: 10vh 5vw 5vh 5vw;
+    margin: 10vh 10vw 5vh 10vw;
     font-weight: 400;
     @include wide-screen{
       margin: 20vh 25vw 5vh 25vw;

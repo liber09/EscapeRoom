@@ -228,7 +228,7 @@ h1 {
 }
 .review blockquote {
   grid-column: span 10;
-  margin: 0 0.5rem 0 1rem;
+  margin: 0 1rem 0 2rem;
 }
 .review .reviewSignature {
   grid-column: span 2;
@@ -238,7 +238,7 @@ h1 {
 }
 @media screen and (min-width: 720px) {
   .review .reviewSignature {
-    margin: 0.5rem 0 0 5.5rem;
+    margin: 1.5rem 0 0 5.5rem;
   }
 }
 
@@ -365,7 +365,7 @@ h2 {
   text-align: center;
 }
 .theStory p {
-  margin: 10vh 5vw 5vh 5vw;
+  margin: 10vh 10vw 5vh 10vw;
   font-weight: 400;
 }
 @media screen and (min-width: 720px) {
