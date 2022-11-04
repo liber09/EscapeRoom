@@ -10,7 +10,7 @@ body{
   background-color: #E5E5E5;
   padding:0;
   margin:0;
-  width: 100vw;
+  width: 100%;
 }
 
 html{
@@ -128,6 +128,7 @@ h1{
   justify-content: center;
   grid-column: span 2;
   @include wide-screen{
+    margin: 0 ;
     display: flex;
     flex-direction: row;
     grid-column: span 12;
@@ -396,14 +397,14 @@ h2{
 .bottomPlaySection{
   padding: 0;
   margin: 0 0 -6px 0;
-  width: 100vw;
+  width: 100%;
   img{
     width: 100%;
     height: auto;
   }
   @include wide-screen{
     grid-column: span 2;
-    width: 50vw;
+    width: 100%;
   }
 
 }
