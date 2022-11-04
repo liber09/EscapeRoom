@@ -10,7 +10,7 @@ body{
   background-color: #E5E5E5;
   padding:0;
   margin:0;
-  width: 100vmin;
+  width: 100vw;
 }
 
 html{
@@ -405,6 +405,7 @@ h2{
   }
   @include wide-screen{
     grid-column: span 2;
+    width: 50vw;
   }
 
 }
