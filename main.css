@@ -215,15 +215,13 @@ h1 {
 .review img {
   grid-column: span 2;
   border-radius: 873px;
-  max-width: 73.34px;
-  max-height: 72px;
   margin: 0 0 0 1.5rem;
+  height: auto;
+  width: 100%;
 }
 @media screen and (min-width: 720px) {
   .review img {
     margin: 0.3rem 0.5rem 0 1rem;
-    height: 96px;
-    width: 96px;
   }
 }
 .review blockquote {
