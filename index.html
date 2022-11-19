@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <header >
-          <nav class="header">
+          <nav class="header"tabindex="0">
             <img class="logo" src="./images/logo.png" alt="Company logo, The letters ESC as keyboard keys inside a white rectangle">
             <h1>Hacker Escape Rooms</h1>
             <div class="burgerIcon" aria-haspopup="true" aria-expanded="false">
@@ -23,17 +23,14 @@
               <span class="bar"></span>
               <span class="bar"></span>
             </div>
+            <menu class="menu" onclick="showMenu()">
+              <li><a href="">Play online</a></li>
+              <li><a href="">Play on-site</a></li>
+              <li><a href="">The story</a></li>
+              <li><a href="">Contact us</a></li>
+            </menu>
           </nav>
-         
       </header>
-      <nav>
-        <menu class="menu">
-        <li><a href="">Play online</a></li>
-        <li><a href="">Play on-site</a></li>
-        <li><a href="">The story</a></li>
-        <li><a href="">Contact us</a></li>
-      </menu>
-      </nav>
       
       <main class="main">
         <img src ="./images/hacker1280.png" 
@@ -159,7 +156,8 @@
         </nav>
       </div>
     </footer>
-  </div>  
+  </div>
+</span>  
   <script src="index.js"></script>    
   </body>
 </html>
