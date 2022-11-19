@@ -1,9 +1,15 @@
-$large-screen-breakpoint: 720px;
+$large-screen-breakpoint: 780px;
+$max-screen-breakpoint: 1280px;
 $background-color: #FFFFFF;
 $darkBlue: #011827;
 
 @mixin wide-screen{
   @media screen and (min-width: $large-screen-breakpoint){
+    @content;    
+  }
+}
+@mixin max-screen{
+  @media screen and (min-width: $max-screen-breakpoint){
     @content;    
   }
 }
@@ -165,7 +171,7 @@ h1{
     right: unset;
     left: unset;
     box-shadow: none;
-    height: 100%;
+    height: unset;
     margin: 0;
     border: none;
     li{
@@ -491,7 +497,6 @@ h2{
 .bottomPlaySection{
   padding: 0;
   margin: 0 0 -6px 0;
-  width: 100%;
   img{
     width: 100%;
     height: auto;
@@ -509,7 +514,14 @@ h2{
   color: #FFF;
   margin: 55px 151px 64px 21px;
   @include wide-screen{
+    margin: 2vh 10vw 2vh 9vw;
+    width: 30vw;
+    height: 5vw;
+  }
+  @include max-screen{
     margin: 22px 224px 6px 116px;
+    width: 308px;
+    height: 66px;
   }
 }
 
@@ -521,7 +533,14 @@ h2{
   font-weight: 700;
   margin: 25px 151px 64px 21px;
   @include wide-screen{
+    margin: 2vh 10vw 2vh 8.5vw;
+    width: 30vw;
+    height: 5vw;
+  }
+  @include max-screen{
     margin: 22px 224px 66px 116px;
+    width: 308px;
+    height: 66px;
   }
 }
 
@@ -530,6 +549,11 @@ h2{
   font-weight: 700;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
   @include wide-screen{
+    font-size: 2.5vw;
+    margin: 6vh 10vw 2vh 8.5vw;
+  }
+  @include max-screen{
+    font-size: 32px;
     margin: 60px 108px 12px 116px;
   }  
 }
@@ -539,6 +563,11 @@ h2{
   font-weight: 400;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
   @include wide-screen{
+    font-size: 2vw;
+    margin: 2vh 10vw 2vh 8.5vw;
+  }
+  @include max-screen{
+    font-size: 24px;
     margin: 12px 108px 12px 116px;
   }
 }
@@ -548,14 +577,26 @@ h2{
   font-weight: 700;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
   @include wide-screen{
+    font-size: 2.5vw;
+    margin: 6vh 10vw 2vh 9vw;
+  }
+  @include max-screen{
+    font-size: 32px;
     margin: 60px 108px 12px 116px;
   }
+
 }
 
 .bottomLeftPlayText{
   font-weight: 400;
+  font-size: 24px;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
   @include wide-screen{
+    font-size: 2vw;
+    margin: 2vh 10vw 2vh 9vw;
+  }
+  @include max-screen{
+    font-size: 24px;
     margin: 12px 108px 12px 116px;
   }
 }

@@ -30,7 +30,7 @@ body {
   right: 0;
   bottom: 0;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .header {
     background-color: #011827;
     position: unset;
@@ -61,7 +61,7 @@ h1 {
   border: 0;
   word-wrap: break-word;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   h1 {
     margin: 1rem 0 0 0.3rem;
     padding: 0 500px 0 0;
@@ -84,7 +84,7 @@ h1 {
 .burgerIcon:hover {
   cursor: pointer;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .burgerIcon {
     display: none;
     margin: 0;
@@ -150,7 +150,7 @@ h1 {
 .menu a:hover {
   color: #8ACFE5;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .menu {
     display: flex;
     grid-row-start: 2;
@@ -164,7 +164,7 @@ h1 {
     right: unset;
     left: unset;
     box-shadow: none;
-    height: 100%;
+    height: unset;
     margin: 0;
     border: none;
   }
@@ -240,7 +240,7 @@ h1 {
   justify-content: center;
   grid-column: span 2;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .buttonContainer {
     margin: 0;
     display: flex;
@@ -266,7 +266,7 @@ h1 {
 .onlineChallengesBtn:hover {
   cursor: pointer;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .onlineChallengesBtn {
     margin: 106px 8.5px 44px 0;
     color: #FFF;
@@ -278,7 +278,7 @@ h1 {
 #upperOnlineChallengeBtn {
   margin-top: 15px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   #upperOnlineChallengeBtn {
     margin-top: -33px;
   }
@@ -299,7 +299,7 @@ h1 {
 .on-siteChallengesBtn:hover {
   cursor: pointer;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .on-siteChallengesBtn {
     margin: 106px 0 44px 8.5px;
   }
@@ -308,7 +308,7 @@ h1 {
 #upperOnSiteChallengesBtn {
   margin-top: 37px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   #upperOnSiteChallengesBtn {
     margin-top: -33px;
   }
@@ -318,7 +318,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .reviews {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -335,7 +335,7 @@ h1 {
   height: auto;
   width: 100%;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .review img {
     margin: 0.3rem 0.5rem 0 1rem;
   }
@@ -350,7 +350,7 @@ h1 {
   margin: 0rem 0 0 5.5rem;
   grid-column: span 12;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .review .reviewSignature {
     margin: 1.5rem 0 0 5.5rem;
   }
@@ -359,7 +359,7 @@ h1 {
 #review2 {
   display: none;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   #review2 {
     display: grid;
   }
@@ -430,7 +430,7 @@ h2 {
   font-size: 14px;
   font-weight: 400;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .challengeCard .starRating p {
     margin: 6px 0 12px 85px;
   }
@@ -477,7 +477,7 @@ h2 {
   margin: 10vh 10vw 5vh 10vw;
   font-weight: 400;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .theStory p {
     margin: 20vh 25vw 5vh 25vw;
   }
@@ -505,7 +505,7 @@ h2 {
   grid-template-columns: repeat(1, 1fr);
   margin: 0;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .bottomContainer {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -514,13 +514,12 @@ h2 {
 .bottomPlaySection {
   padding: 0;
   margin: 0 0 -6px 0;
-  width: 100%;
 }
 .bottomPlaySection img {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .bottomPlaySection {
     grid-column: span 2;
     width: 100%;
@@ -542,9 +541,18 @@ h2 {
 .bottomLeftPlayBtn:hover {
   cursor: pointer;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
+  .bottomLeftPlayBtn {
+    margin: 2vh 10vw 2vh 9vw;
+    width: 30vw;
+    height: 5vw;
+  }
+}
+@media screen and (min-width: 1280px) {
   .bottomLeftPlayBtn {
     margin: 22px 224px 6px 116px;
+    width: 308px;
+    height: 66px;
   }
 }
 
@@ -565,9 +573,18 @@ h2 {
 .bottomRightPlayBtn:hover {
   cursor: pointer;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
+  .bottomRightPlayBtn {
+    margin: 2vh 10vw 2vh 8.5vw;
+    width: 30vw;
+    height: 5vw;
+  }
+}
+@media screen and (min-width: 1280px) {
   .bottomRightPlayBtn {
     margin: 22px 224px 66px 116px;
+    width: 308px;
+    height: 66px;
   }
 }
 
@@ -576,8 +593,15 @@ h2 {
   font-weight: 700;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .bottomRightPlayTitle {
+    font-size: 2.5vw;
+    margin: 6vh 10vw 2vh 8.5vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .bottomRightPlayTitle {
+    font-size: 32px;
     margin: 60px 108px 12px 116px;
   }
 }
@@ -587,8 +611,15 @@ h2 {
   font-weight: 400;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .bottomRightPlayText {
+    font-size: 2vw;
+    margin: 2vh 10vw 2vh 8.5vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .bottomRightPlayText {
+    font-size: 24px;
     margin: 12px 108px 12px 116px;
   }
 }
@@ -598,18 +629,33 @@ h2 {
   font-weight: 700;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .bottomLeftPlayTitle {
+    font-size: 2.5vw;
+    margin: 6vh 10vw 2vh 9vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .bottomLeftPlayTitle {
+    font-size: 32px;
     margin: 60px 108px 12px 116px;
   }
 }
 
 .bottomLeftPlayText {
   font-weight: 400;
+  font-size: 24px;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .bottomLeftPlayText {
+    font-size: 2vw;
+    margin: 2vh 10vw 2vh 9vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .bottomLeftPlayText {
+    font-size: 24px;
     margin: 12px 108px 12px 116px;
   }
 }
@@ -617,7 +663,7 @@ h2 {
 #imgGirlAtComputer {
   order: 2;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   #imgGirlAtComputer {
     order: 3;
   }
@@ -626,7 +672,7 @@ h2 {
 #textToGirlAtComputer {
   order: 3;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   #textToGirlAtComputer {
     order: 2;
   }
@@ -640,7 +686,7 @@ h2 {
   grid-template-columns: repeat(1, 1fr);
   color: #FFF;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footer {
     grid-template-columns: repeat(4, 1fr);
     border-top: 183px transparent;
@@ -663,7 +709,7 @@ h2 {
   font-weight: 400;
   line-height: 21px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerLeft {
     grid-column: span 2;
   }
@@ -671,7 +717,7 @@ h2 {
 .footerLeft h4 {
   margin: 64px 0 0 22px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerLeft h4 {
     margin: 8rem 0 0 2rem;
   }
@@ -679,7 +725,7 @@ h2 {
 .footerLeft p {
   margin: 0 25px 20px 22px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerLeft p {
     margin: 7px 7rem 5rem 2rem;
   }
@@ -699,7 +745,7 @@ h2 {
 .footerCenter h4 {
   margin: 20px 0 0px 22px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerCenter h4 {
     margin: 8rem 0 0 2rem;
   }
@@ -710,7 +756,7 @@ h2 {
 .footerCenter p:nth-child(4) {
   margin: 0 0 24px 22px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerCenter p {
     margin: 0 3rem 0 2rem;
   }
@@ -730,7 +776,7 @@ h2 {
 .footerRight h4 {
   margin: 23px 0 0 22px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerRight h4 {
     margin: 8rem 0 0 2rem;
   }
@@ -741,7 +787,7 @@ h2 {
 .footerRight p:nth-child(3) {
   margin: 0 0 30px 22px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .footerRight p {
     margin: 0 3rem 0 2rem;
   }
